@@ -1,6 +1,6 @@
 {
-    "name": "igomis/bd",
-    "description": "Exercicis PHP BD",
+    "name": "batoibooks",
+    "description": "Batoi Books",
     "license" : "MIT",
     "autoload": {
         "psr-4": {
