@@ -1,5 +1,7 @@
 <?php
 
+use App\Course;
+
 class CourseTest extends \Codeception\Test\Unit
 {
     /**
@@ -9,7 +11,6 @@ class CourseTest extends \Codeception\Test\Unit
 
     protected function _before()
     {
-        require_once 'src/Course.php';
     }
 
     protected function _after()
@@ -72,7 +73,7 @@ class CourseTest extends \Codeception\Test\Unit
 
     public function testLoadModulesFromFile()
     {
-        $filename = 'src/coursesbook.csv';
+        $filename = 'src/files/coursesbook.csv';
         $courses = Course::loadCoursesFromFile($filename);
         $this->assertIsArray($courses);
         $this->assertNotEmpty($courses);
