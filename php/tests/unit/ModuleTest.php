@@ -65,7 +65,7 @@ class ModuleTest extends \Codeception\Test\Unit
             'vliteral' => 'Vliteral1',
             'idCycle' => 'Cycle1'
         ]);
-        $this->assertEquals($expectedJson, $module->__toJson());
+        $this->assertEquals($expectedJson, $module->toJson());
     }
 
     public function testLoadModulesFromFile()

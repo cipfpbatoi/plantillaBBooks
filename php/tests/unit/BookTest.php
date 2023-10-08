@@ -83,6 +83,6 @@ class BookTest extends \Codeception\Test\Unit
             'comments' => 'Great book!',
             'soldDate' => null
         ]);
-        $this->assertEquals($expectedJson, $book->__toJson());
+        $this->assertEquals($expectedJson, $book->toJson());
     }
 }

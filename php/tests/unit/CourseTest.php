@@ -67,7 +67,7 @@ class CourseTest extends \Codeception\Test\Unit
             'vliteral' => 'Vliteral1',
             'cliteral' => 'Cliteral1'
         ]);
-        $this->assertEquals($expectedJson, $course->__toJson());
+        $this->assertEquals($expectedJson, $course->toJson());
     }
 
     public function testLoadModulesFromFile()
