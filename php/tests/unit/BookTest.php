@@ -1,6 +1,6 @@
 <?php
 
-use App\Book;
+use BatBook\Book;
 
 class BookTest extends \Codeception\Test\Unit
 {

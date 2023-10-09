@@ -1,7 +1,7 @@
 <?php
 
-use App\Exempcions\WeekPasswordException;
-use App\User;
+use BatBook\Exempcions\WeekPasswordException;
+use BatBook\User;
 
 class UserTest extends \Codeception\Test\Unit
 {

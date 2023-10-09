@@ -1,6 +1,6 @@
 <?php
 
-use App\Module;
+use BatBook\Module;
 
 class ModuleTest extends \Codeception\Test\Unit
 {
